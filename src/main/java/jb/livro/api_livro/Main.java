@@ -17,6 +17,7 @@ public class Main {
         int founds = livros.size();
         System.out.println("Livros encontrados: "+ founds);
         for (Book b : livros) {
+            System.out.printf("%n | ------------------------------------ | %n");
             System.out.println(b.print());
         }
         System.out.print("Livros adicionados: ");
